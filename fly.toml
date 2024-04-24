@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for half-marathon-backend on 2024-04-24T00:16:40-04:00
+# fly.toml app configuration file generated for half-marathon on 2024-04-24T00:29:04-04:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'half-marathon-backend'
+app = 'half-marathon'
 primary_region = 'ewr'
 
 [build]
@@ -12,7 +12,7 @@ primary_region = 'ewr'
   PORT = '3000'
 
 [http_service]
-  internal_port = 3001
+  internal_port = 3000
   force_https = true
   auto_stop_machines = true
   auto_start_machines = true
