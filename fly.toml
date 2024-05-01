@@ -9,7 +9,6 @@ primary_region = 'ewr'
 [build]
 
 [env]
-  MONGODB_URI='mongodb+srv://addisonwest98:LFUM00Cczrvd7Crt@cluster0.hlkgmrc.mongodb.net/half-marathon-countdown?retryWrites=true&w=majority&appName=Cluster0'
   PORT = '3000'
 
 [http_service]
